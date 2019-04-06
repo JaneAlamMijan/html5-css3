@@ -1,0 +1,202 @@
+<style>
+	   #style1 {
+		   text-align:right;
+		   color:blue;
+		   font-size:40px
+	      }
+	   .style {
+		   text-align:left;
+		   color:green;
+		   font-size:30px}
+	    #style3 {
+			color:red;
+			font-size:20px}
+	    .color1 {color:red}
+	    .homepage_hadeline {
+			color:white;
+			font-size:30px;
+			text-align:center;
+			background:green;
+			padding-top:30px;
+			float:left;
+			padding-bottom:
+			100px;width:400px;
+			min-height:30px}
+	    .homepage_hadeline2{
+			color:white;
+			font-size:30px;
+			text-align:center;
+			background:black;
+			padding-top:30px;
+			float:left;
+			padding-bottom:69px;
+			padding-left:none;
+			width:400px;
+			height:60px}
+			.button_class{
+				margin:0 auto;
+				display:inline;
+				width:100%;
+				padding:10px 10px;
+				border-right:5px solid #1111;
+				
+			}
+		.button_1 {
+	background-color: red;
+	padding: 12px 27px;
+	font-size: 22px;
+	margin: 0 auto;
+	cursor: pointer;
+	transition: all 0.9s case os;
+	border: medium none;
+	color: currentColor;
+	border-radius: 15px;
+}
+		.button_1:hover{
+			background-color:black;
+			color:white;
+			opacity:0.7;
+		}
+		.button_2{
+	background-color: red;
+	padding: 12px 27px;
+	font-size: 22px;
+	margin: 0 auto;
+	cursor: pointer;
+	transition: .5s;
+	border: medium none;
+	color: currentColor;
+	border-radius: 15px;
+}
+		.button_2:hover{
+			background-color:black;
+			color:white;
+			opacity:0.7;
+		}
+		.table_area {
+	padding: 16px 304px;
+	width: 100%;
+	text-shadow: 1px 1px wheat;
+}
+		th {
+	width: 137px;
+	border: 1px solid gray;
+	padding: 8px 17px;
+	background-color: darkcyan;
+	font-size: 20px;
+	text-shadow: 1px 1px #000;
+	color: white;
+}
+		td{
+			background-color: silver;
+			text-align: center;
+			padding: 6px 2px;
+			border:1px solid gray;
+			
+		}
+.g-area{
+	height:300px;
+	width:100%;
+	background-color:#000;
+	background: linear-gradient(red, green, yellow);
+	
+	
+}
+.box-cover {
+	position:relative;
+	transform: translateX(20px);
+	
+}
+
+.box {
+	position:absolute;
+	top:0;
+	left:0;
+	height:70px;
+	width:70px;
+	border-radius:10px;
+	
+}
+
+.box1 {
+	background-color:red;
+transform: rotate(10deg);
+}
+
+.box2 {
+		background-color:green;
+	transform: rotate(20deg);
+	
+}
+
+.box3 	{
+	background-color:yellow;
+	transform: rotate(30deg);
+}
+
+.box4 {
+		background-color:white;
+		transform: rotate(40deg);
+}
+
+.box5 {
+		background-color:blue;
+		transform: rotate(50deg);
+}
+ @keyframes janealam{
+	0%{background-color: white; left:0px;}
+	
+	25%{background-color: white; left:100px;}
+	50%{background-color: white; left:100px;}
+	100%{background-color: white; left:0px;}
+	
+}
+.animition{
+	height:100px;
+	width:100px;
+	background-color:none;
+	position:relative;
+	color:red;
+	animation-name:janealam;
+	animation-duration:10s;
+	
+}
+.pagination{
+	margin:0px;
+	padding:0px;
+	
+	
+}
+.pagination li {
+	
+	background-color:gray;
+	display:inline-block;
+	
+}
+.pagination li a {
+	padding:8px 15px;
+	display:block;
+	text-decoration:none;
+	color:black;
+	border-radius:10px;
+}
+.pagination li:first-child {
+	color:#fff;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	
+}
+.pagination li:last-child  {
+	color:#fff;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius:5px;
+	
+}
+.pagination li:first-child:hover,
+.pagination li:last-child:hover{
+	background-color:028062;
+	color:black;
+	transition:.5s;
+	transform:rotate(0deg);
+}
+		</style>

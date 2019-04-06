@@ -1,0 +1,68 @@
+html,body{margin:0;padding:0}
+h1,h2,h3,h4,h5,h6{margin:0;padding:0;}
+ul{margin:0;padding:0}
+header,nav,section,article,aside,footer{overflow:hidden;}
+
+/*contenier*/
+.container {
+    width: 900px;
+    display: block;
+    margin: 0 auto;
+	
+}
+/*top hadera*/
+header {
+    background-color: #D6D6D6;
+    padding: 15px 20px;
+}
+header h1 {
+
+    color: royalblue;
+    text-shadow: 1px 2px #000;
+
+}
+nav {
+
+    width: 100%;
+    background-color: #27223E;
+    margin: 0 auto;
+
+}
+/*menu style*/
+nav > ul > li {
+	display: inline;
+	padding: 82px 48px;
+	font-size: x-large;
+	width: 100%;
+	border-right: 2px solid #fff;
+}
+/*menu color*/
+nav ul li a {
+	color: white;
+	text-decoration:none;
+}
+/*linear animation*/
+@keyframes janealam{
+	0%{background-color: none; left:0px;}
+	8%{background-color: none; left:100px;}
+	16%{background-color: none; left:200px;}
+	24%{background-color: none; left:300px;}
+	32%{background-color: none; left:400px;}
+	40%{background-color: none; left:500px;}
+	48%{background-color: none; left:600px;}
+	56%{background-color: none; left:700px;}
+	66%{background-color: none; left:600px;}
+	72%{background-color: none; left:500px;}
+	80%{background-color: none; left:400px;}
+	88%{background-color: none; left:300px;}
+	 96%{background-color: none; left:200px;}
+	100%{background-color: none; left:0px;}
+	
+}
+.animation{
+	background-color:none;
+	position:relative;
+	animation-name:janealam;
+	animation-duration:40s;
+	animation-iteration-count:infinite;
+}
